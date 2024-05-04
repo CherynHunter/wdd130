@@ -6,15 +6,15 @@ body {
 }
 
 :root {
-    --primary-color: #f5a65b;
-    --secondary-color: #58564a ;
-    --accent1-color: #307cad;
+    --primary-color: #424139;
+    --secondary-color: #307cad ;
+    --accent1-color: #f5a65b;
     --accent2-color: #fefefe;
     --heading-font: "protest riot", sans-serif;
     --paragraph-font: "teachers", sans-serif;
     --nav-background-color: #307cad;
-    --nav-link-color: #fefefe;
-    --nav-hover-link-color: #f5a65b;
+    --nav-link-color: #f5a65b;
+    --nav-hover-link-color: #fefefe;
     --nav-hover-background-color: #58564a;
 }
 
