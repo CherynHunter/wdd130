@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #f5a65b;
+    --secondary-color: #58564a ;
+    --accent1-color: #307cad;
+    --accent2-color: #fefefe;
+    --heading-font: "protest riot", sans-serif;
+    --paragraph-font: "teachers", sans-serif;
+    --nav-background-color: #307cad;
+    --nav-link-color: #fefefe;
+    --nav-hover-link-color: #f5a65b;
+    --nav-hover-background-color: #58564a;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    background-color: var(--accent1-color);
+    padding: 20px;
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
