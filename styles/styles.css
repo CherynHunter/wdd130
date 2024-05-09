@@ -32,8 +32,6 @@ aside {
     border: 5px solid rgba(0, 0, 0, 5);
     text-align: center;
     position: relative;
-    top: 5px;
-    left: 75px;
 }
 aside img {
     width: 200px;
