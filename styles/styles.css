@@ -46,7 +46,8 @@ footer {
     border-top: 3px solid black;
     text-align: center;
 }
-/*Class Selectors */
+
+/* Class Selectors */
 .box{
     margin: 1rem;
     padding: 1rem;
