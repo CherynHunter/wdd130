@@ -37,7 +37,7 @@ aside img {
     height: auto;
 }
 aside h2{
-    position: relative;
+    position: absolute;
     top: 35px; 
     left: 5px;
 }
