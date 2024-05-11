@@ -35,17 +35,17 @@ nav a {
     height: auto;
 
 }
-.hero h1 {
+h1 {
     position: absolute;
 
 }
 
-.hero article {
+article {
     position: absolute;
 
 }
 
-.hero article img {
+img {
     display: right;
     width: 25%;
 
