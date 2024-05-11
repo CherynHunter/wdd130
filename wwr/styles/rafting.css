@@ -2,7 +2,7 @@
 
 body {
     max-width: 960px;
-    font-family: var(--paragraph-font);
+    font-family: "teachers", sans-serif;
     font-style: normal;
     max-width: 960px;
     padding: 20px;
@@ -24,7 +24,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: var(--heading-font);
+    font-family: "protest riot", sans-serif;
     color: var(--primary-color);
 }
 
@@ -37,12 +37,6 @@ nav a {
     text-decoration: none;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-
-}
 h1 {
     position: absolute;
 
@@ -57,5 +51,11 @@ img {
     display: right;
     width: 25%;
 
-}
 
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
