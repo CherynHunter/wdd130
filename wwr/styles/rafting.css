@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
 body {
     max-width: 960px;
+    font-family: var(--paragraph-font);
+    font-style: normal;
+    max-width: 960px;
+    padding: 20px;
+    src: url ('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+    
 }
+
 :root {
     --primary-color: #424139;
     --secondary-color: #307cad ;
