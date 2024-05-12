@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
 
 body {
-    max-width: 960px;
     font-family: "teachers", sans-serif;
     font-style: normal;
-    max-width: 960px;
+    max-width: 1000px;
     padding: 20px;
     
 }
@@ -24,31 +23,47 @@ body {
 
 h1, h2, h3, h4, h5, h6{
     font-family: "protest riot", sans-serif;
-    color: var(--primary-color);
+    color: rgba(42, 41, 39, 5);
 }
 
-p {
-    font-family: var(--heading-font);
-    color: var(--secondary-color);
+.hero img{
+    display: block;
+    width: 1000px;
+    height: auto;  
+}
+
+h1{
+    position: absolute;
+    top: 300px;
+    width: 1000px;
+    text-align: center;
+    color: var(--primary-color);
+    background-color: #fefefe;
+    opacity: 0.75;
+    padding: 2rem
+}
+
+article{
+    position: absolute;
+    width: 800px;
+    top: 600px;
+    left: 150px;
+    right: 100px;
+    background-color: #fefefe;
+    opacity: 0.75;
+    padding: .75rem;
+}
+
+.hero article img{
+    float: right;
+    width: 125px;
+    opacity: 5;
+}
+
+section p{
+    width: 1000px;
 }
 
 nav a {
     text-decoration: none;
-}
-
-h1 {
-    position: absolute;
-
-}
-
-article {
-    position: absolute;
-
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-
 }
