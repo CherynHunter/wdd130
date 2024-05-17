@@ -3,16 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-size: 16px;
+}
+
 nav {
-    background-color: rebeccapurple;
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+
 }
 h1 {
     color: rebeccapurple;
+    border-bottom: 2px solid black;
 }
 main img {
     width: 150px;
@@ -22,16 +35,21 @@ main img {
     float: right;
 }
 p {
-    padding: 0;
+    padding: 1px;
+    text-align: center;
 }
+
 main {
-    max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 aside {
     width: 20rem;
     border: 5px solid rgba(0, 0, 0, 5);
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 aside img {
     width: 200px;
@@ -39,20 +57,26 @@ aside img {
 }
 aside h2{
     position: absolute;
-    right: 92.5px;
+    right: 92.5px
 
 }
-footer {
-    margin-top: 15px;
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
     border-top: 3px solid black;
     text-align: center;
+    
 }
 
 /* Class Selectors */
 .box{
     margin: 1rem;
-    border: 5px, solid, rebeccapurple;
+    border: 5px solid rebeccapurple;
     padding: 1rem;
     background-color: rgb(168, 112, 168);
     color: rgb(251, 248, 245);
+}
+.grid{
+    display: grid;
+    align-items: center;
 }
