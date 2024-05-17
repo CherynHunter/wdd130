@@ -69,6 +69,11 @@ header, .grid, footer {
     
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+}
+
 /* Class Selectors */
 .box a {
     color: rgb(251, 248, 245);
