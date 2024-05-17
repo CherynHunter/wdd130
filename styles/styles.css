@@ -9,7 +9,7 @@ body{
 }
 
 nav {
-    background-color: steelblue;
+    background-color: rebeccapurple;
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -23,9 +23,11 @@ nav a {
     text-decoration: none;
 
 }
+
 h1 {
     color: rebeccapurple;
     border-bottom: 2px solid black;
+    text-align: center;
 }
 main img {
     width: 150px;
@@ -36,7 +38,7 @@ main img {
 }
 p {
     padding: 1px;
-    text-align: center;
+    text-align: left;
 }
 
 main {
@@ -64,16 +66,19 @@ header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
     border-top: 3px solid black;
-    text-align: center;
     
 }
 
 /* Class Selectors */
+.box a {
+    color: rgb(251, 248, 245);
+}
+
 .box{
     margin: 1rem;
-    border: 5px solid rebeccapurple;
+    border: 5px solid black;
     padding: 1rem;
-    background-color: rgb(168, 112, 168);
+    background-color: rebeccapurple;
     color: rgb(251, 248, 245);
 }
 .grid{
