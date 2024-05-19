@@ -21,6 +21,22 @@ body {
     --nav-hover-background-color: #58564a;
 }
 
+header{
+    margin: 1 rem;
+    display: grid;
+    grid-template-columns: 200px 800px;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+    
+}
+
 h1, h2, h3, h4, h5, h6{
     font-family: "protest riot", sans-serif;
     color: rgba(42, 41, 39, 5);
@@ -64,7 +80,10 @@ article{
 section p{
     width: 1000px;
 }
-
+section img:{
+    display: flex;
+    
+}
 nav a {
     text-decoration: none;
 }
