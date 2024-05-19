@@ -39,7 +39,7 @@ nav{
 
 h1, h2, h3, h4, h5, h6{
     font-family: "protest riot", sans-serif;
-    color: rgba(42, 41, 39, 5);
+    color: rgba(42, 41, 39, .2);
 }
 
 .hero img{
@@ -74,15 +74,15 @@ article{
 .hero article img{
     float: right;
     width: 125px;
-    opacity: 5;
+    opacity: 0.75;
 }
 
 section p{
     width: 1000px;
 }
-section img:{
+section img{
     display: flex;
-    
+
 }
 nav a {
     text-decoration: none;
