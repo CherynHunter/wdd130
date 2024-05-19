@@ -80,8 +80,13 @@ article{
 section p{
     width: 1000px;
 }
-section img{
+section{
+    max-width: 800px;
+}
+.images{
+    max-width: 20px;
     display: flex;
+
 }
 nav a {
     text-decoration: none;
