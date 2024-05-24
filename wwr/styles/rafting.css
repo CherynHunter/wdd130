@@ -23,6 +23,7 @@ body {
 
 header{
     margin: 1rem;
+    color: white;
     display: grid;
     grid-template-columns: 200px 800px;
     align-items: center;
@@ -31,8 +32,12 @@ header{
 }
 
 nav{
+    margin: 1rem;
     display: flex;
     justify-content: space-evenly;
+    color: var(--primary-color);
+    background-color: #f5a65b;
+    padding: 40px;
     font-size: large;
     
 }
@@ -90,4 +95,7 @@ section{
 }
 nav a {
     text-decoration: none;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-evenly;
 }
