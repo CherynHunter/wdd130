@@ -46,11 +46,10 @@ nav{
 
 h1, h2, h3, h4, h5, h6{
     font-family: "protest riot", sans-serif;
-    color: rgba(42, 41, 39, 4);
+    color: rgb(42, 41, 39);
 }
 
 h1{
-    position: flex;
     font-size: xx-large;
     width: 575px;
     text-align: left;
