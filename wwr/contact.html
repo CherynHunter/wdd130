@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <img src="images/river_adventure_logo.png" alt="Rafting Site Logo">
+        <img src="images/river_adventure_logo.png" width= 300 alt="Rafting Site Logo">
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -19,30 +19,62 @@
         </nav>
     </header>
     <main>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89232.68585102963!2d-121.5686109!3d45.66043155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549608da55e87107%3A0x2ebbbaed3f0ad713!2sHood%20River!5e0!3m2!1sen!2sus!4v1716656356239!5m2!1sen!2sus" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        
-    
-            <h2>Adventure Awaits You!</h2>
+        <div class="grid">
+        <section>
+            <article>
+                <h1>Company Information</h1>
+                <p>River Adventure<br> 12345 River Road<br>Hood River, Oregon 97031<br><br> 503-555-0000<br><br> RiverAdventures@gmail.com<br><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89232.68585102963!2d-121.5686109!3d45.66043155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549608da55e87107%3A0x2ebbbaed3f0ad713!2sHood%20River!5e0!3m2!1sen!2sus!4v1716656356239!5m2!1sen!2sus" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+        </section>
+        <form>
+            <fieldset>
+                <legend>Help Us Help You!</legend>
+                <p>Fill out this form and we will respond within 24 hours</p>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname"><br>
+                </div>
+                <div class="form-item column2">    
+                    <label for="usermail">Email:</label>
+                    <input type="text" id="usermail" name="usermail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>How Can We Help You?</legend>
+                <div class="form-items column1">    
+                    <input type="radio" id="html" name="General Inquiry">
+                    <label for="radio">General Inquiry</label><br>
+                    <input type="radio" id="html" name="Make a Reservation">
+                    <label for="radio">Make a Reservation</label><br>
+                    <input type="radio" id="html" name="Website Suggestions">
+                    <label for="radio">Wesite Suggestions</label><br>
+                </div>
+                <div class="form-items column1">
+                    <input type="checkbox" id="subscription" name="subscription">
+                    <label for="subscription">Check this box if you'd like to receive updates and our monthly newsletter</label>
+                </div>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+            <h2>Meet Some of Our Smile Finders!</h2>
             <div class="images">
                 <figure>
-                    <img src="images/rafting_image1.jpg" width = 200 alt="Rafting Image 1">
-                        <figcaption>"White Water"</figcaption>
+                    <img src="images/rafting_maggy.jpg" width = 250 alt="River Guide - Maggy">
+                        <figcaption>River Guide - Maggy</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/rafting_image2.jpg" width = 200 alt="Rafting Image 2">
-                        <figcaption>"Rapids Ahead"</figcaption>
+                    <img src="images/rafting_bruce.jpg" width = 240 alt="River Guide - Bruce">
+                        <figcaption>River Guide - Bruce</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/rafting_image3.jpg" alt="Rafting Image 3">
-                        <figcaption>"Bonding"</figcaption>
+                    <img src="images/rafting_customer_service.jpg" width = 250 alt="River Adventure Customer Service">
+                        <figcaption>Customer Service - Abby and Rachel</figcaption>
                 </figure>
-                <figure>   
-                    <img src="images/rafting_image4.jpg" alt="Rafting Image 4">     
-                        <figcaption>"Teamwork"</figcaption>
-                </figure>
-                <figure> 
-                    <img src="images/rafting_image5.jpg" alt="Rafting Image 5">
-                        <figcaption>"Family Fun</figcaption>
+                <figure>
+                    <img src="images/rafting_owners.jpg" width = 350 alt="River Adventure Owners">
+                        <figcaption>River Adventures Owners - Willow and Sterling</figcaption>
                 </figure>
             </div>    
         </section>

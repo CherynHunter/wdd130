@@ -66,8 +66,8 @@ input, select, textarea{
 }
 
 input[type="checkbox"]{
-    width: 25px;
-    height: 25px;
+    width: 100px;
+    height: 100px;
     vertical-align: bottom;
 }
 
@@ -78,9 +78,8 @@ button{
     border-radius: 0.5rem;
     border: 2px solid black;
 }
-
 button:hover{
-    color: #f5a65b;
+    color:#f5a65b;
     background-color: black;
 }
 
