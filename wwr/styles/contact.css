@@ -80,7 +80,6 @@ section{
 }
 
 form{
-    justify-content: center;
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
@@ -88,6 +87,7 @@ form{
     border-radius: 0.5rem;
     background-color: lightgray;
     display: grid;
+    justify-content: left;
 }
 
 fieldset{
@@ -105,6 +105,27 @@ legend{
     background-color: white;
 }
 
+label, input, button, select, textarea{
+    font-family: "teachers", sans-serif;
+    font-size: 1rem;
+}
+
+label{
+    text-align: left;
+    padding-right: 1rem
+}
+
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
 button{
     margin: 1rem;
     padding: 0.5rem;
@@ -113,22 +134,46 @@ button{
     border-radius: 0.5rem;
     border: 2px solid black;
 }
-
 button:hover{
-    color: #f5a65b;
+    color:#f5a65b;
     background-color: black;
 }
 
-.images{
-    display: flex;
-    justify-content: space-evenly;
-
+footer{
+    text-align: center;
+    padding: 2rem;
+    font-size: large;
 }
+
 nav a {
     text-decoration: none;
     color: var(--primary-color);
     display: flex;
     justify-content: space-evenly;
+}
+
+/*class selectors*/
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2{
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
+
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 .grid{
