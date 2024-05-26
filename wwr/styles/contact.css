@@ -30,12 +30,6 @@ header{
     
 }
 
-iframe{
-    width: 500px;
-    height: 350px;
-    border: 5px solid #f5a65b;
-    border-radius: 0.5rem;
-}
 nav{
     max-width: 2000px;
     margin: 1rem;
@@ -53,7 +47,8 @@ h1, h2, h3, h4, h5, h6{
     color: rgb(42, 41, 39);
 }
 
-h1{
+.grid h1{
+    font-family: "protest riot", sans-serif;
     font-size: xx-large;
     width: 575px;
     text-align: left;
@@ -62,7 +57,7 @@ h1{
     padding: 2rem
 }
 
-article{
+.grid article{
     justify-content: left;
     width: 650px;
     top: 900px;
@@ -76,13 +71,19 @@ article{
     border-radius: 0.5rem;
 }
 
-section p{
+.grid section p{
     width: 1400px;
     color: white;
     font-size: larger;
 }
-section{
+.grid section{
     max-width: 800px;
+}
+iframe{
+    width: 500px;
+    height: 350px;
+    border: 5px solid #f5a65b;
+    border-radius: 0.5rem;
 }
 
 form{
