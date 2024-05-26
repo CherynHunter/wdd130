@@ -166,6 +166,7 @@ form{
 
 fieldset{
     display: grid;
+    width: 600px;
     grid-gap: 0.5rem;
     margin: 1rem;
     border: 2px solid #f5a65b;
