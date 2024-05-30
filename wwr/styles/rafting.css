@@ -233,7 +233,7 @@ nav a {
 .form-item{
     display: grid;
     align-items: center;
-    color: var(--primary-color);
+    color: black;
 }
 
 .column1{
