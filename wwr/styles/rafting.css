@@ -46,7 +46,7 @@ nav{
 
 h1, h2, h3, h4, h5, h6{
     font-family: "protest riot", sans-serif;
-    color: rgb(42, 41, 39,);
+    color: rgb(42, 41, 39);
 }
 
 .hero img{
@@ -102,12 +102,12 @@ figcaption{
     justify-content: center;
 }
 
-.images_trip{
+p{
     display: flex;
     justify-content: center;
 }
 
-p{
+.images_trip{
     display: flex;
     justify-content: center;
 }
@@ -268,11 +268,9 @@ nav a {
 }
 
 .images_trip{
-    display: flexbox;
     background-color: #f5a65b;
     display: flex;
     justify-content: space-evenly;
-
  
 }
 
@@ -298,6 +296,7 @@ caption{
     caption-side: top;
     padding: 10px;
     font-weight: bold;
+    justify-content: center;
 }
 
 tfoot{
