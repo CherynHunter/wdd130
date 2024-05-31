@@ -98,6 +98,28 @@ section{
     justify-content: space-evenly;
 }
 
+figcaption{
+    display: flex;
+    justify-content: center;
+}
+
+.images_trip{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: grid;
+    grid-row:span;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2em;
+}
+
 .h2_trip{
     display: flex;
     justify-content: center;
