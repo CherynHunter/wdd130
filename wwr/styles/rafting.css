@@ -96,8 +96,13 @@ section{
     max-width: 15px;
     display: flex;
     justify-content: space-evenly;
-
 }
+
+.h2_trip{
+    display: flex;
+    justify-content: center;
+}
+
 nav a {
     text-decoration: none;
     color: var(--primary-color);
@@ -218,6 +223,7 @@ footer{
     text-align: center;
     padding: 2rem;
     font-size: large;
+    max-width: 2000px;
 }
 
 nav a {
@@ -227,6 +233,53 @@ nav a {
     display: flex;
     justify-content: space-evenly;
 }
+
+.images_trip{
+    display: flex;
+    justify-content: space-evenly;
+
+ 
+}
+
+table{
+    border-collapse: collapse;
+    border: 4px solid #f5a65b;
+    width: 1300px;
+    font-family: "teachers", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding: 10px;
+
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+caption{
+    font-family: "protest riot", sans-serif;
+    font-size: 2rem;
+    caption-side: top;
+    padding: 10px;
+    font-weight: bold;
+}
+
+tfoot{
+    background-color: #424139;
+    color:#f5a65b;
+    font-weight: bold;
+}
+
+tbody > tr:nth-of-type(odd) {
+    background-color: rgb(237 238 242);
+  }
+
+th, td{
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+}
+
 
 /*class selectors*/
 
