@@ -101,6 +101,7 @@ section{
 .h2_trip{
     display: flex;
     justify-content: center;
+    font-size: larger;
 }
 
 nav a {
