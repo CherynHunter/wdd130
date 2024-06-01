@@ -290,6 +290,11 @@ nav a {
 
 }
 
+h3{
+    display: flex;
+    justify-content: center;
+}
+
 caption{
     font-family: "protest riot", sans-serif;
     font-size: 2rem;
