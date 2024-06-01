@@ -107,19 +107,6 @@ p{
     justify-content: center;
 }
 
-.images_trip{
-    display: flex;
-    justify-content: center;
-}
-
-ul{
-    display: grid;
-    grid-row:span;
-    background-color: var(--primary-color);
-    color: white;
-    padding: 2em;
-}
-
 .h2_trip{
     display: flex;
     justify-content: center;
@@ -249,7 +236,7 @@ button:hover{
 
 h2{
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 footer{
@@ -275,6 +262,7 @@ nav a {
     color: white;
     display: grid;
     justify-items: center;
+    border: 5px solid #f5a65b;
 }
 .images_trip2{
     padding: 2rem;
@@ -284,6 +272,8 @@ nav a {
     color: white;
     display: grid;
     justify-items: center;
+    border: 5px solid #f5a65b;
+
 }
 .images_trip3{
     padding: 2rem;
@@ -293,6 +283,8 @@ nav a {
     color: white;
     display: grid;
     justify-items: center;
+    border: 5px solid #f5a65b;
+
 }
 
 caption{
