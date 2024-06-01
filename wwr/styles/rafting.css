@@ -291,8 +291,7 @@ nav a {
 }
 
 h3{
-    display: flex;
-    justify-content: space-evenly;
+    text-align: center;
 }
 
 caption{
