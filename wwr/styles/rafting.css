@@ -268,11 +268,20 @@ nav a {
 }
 
 .images_trip{
+    max-width: 2000px;
     background-color: #f5a65b;
-    display: flex;
-    justify-content: space-evenly;
- 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
 }
+
+caption{
+    font-family: "protest riot", sans-serif;
+    font-size: 2rem;
+    caption-side: top;
+}
+
+
 
 table{
     border-collapse: collapse;
@@ -290,16 +299,8 @@ table{
     margin-right: auto;
 }
 
-caption{
-    font-family: "protest riot", sans-serif;
-    font-size: 2rem;
-    caption-side: top;
-    padding: 10px;
-    justify-content: center;
-}
-
 tfoot{
-    background-color: #424139;
+    background-color: white;
     color:#f5a65b;
     font-weight: bold;
 }
