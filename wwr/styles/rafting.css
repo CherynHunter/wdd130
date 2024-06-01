@@ -271,17 +271,15 @@ nav a {
     max-width: 2000px;
     background-color: #f5a65b;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-
+    justify-items: center;
 }
 
 caption{
     font-family: "protest riot", sans-serif;
     font-size: 2rem;
     caption-side: top;
+    justify-items: center;
 }
-
-
 
 table{
     border-collapse: collapse;
