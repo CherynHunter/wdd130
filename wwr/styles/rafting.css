@@ -255,6 +255,7 @@ nav a {
 }
 
 .images_trip1{
+    font-size: large;
     padding: 2rem;
     margin: 5px;
     max-width: 1800px;
@@ -265,6 +266,7 @@ nav a {
     border: 5px solid #f5a65b;
 }
 .images_trip2{
+    font-size: large;
     padding: 2rem;
     margin: 5px;
     max-width: 1800px;
@@ -276,6 +278,7 @@ nav a {
 
 }
 .images_trip3{
+    font-size: large;
     padding: 2rem;
     margin: 5px;
     max-width: 1800px;
