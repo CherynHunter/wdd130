@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6{
 h1{
     position: absolute;
     top: 450px;
-    width: 1400px;
+    width: 1500px;
     text-align: center;
     color: black;
     background-color: #fefefe;
@@ -339,7 +339,6 @@ th, td{
 .flexbox{
     display: grid;
     max-width:2000px;
-    max-height: auto;
     align-items: center;
     justify-content: center;
     font-size: larger;
@@ -351,6 +350,8 @@ th, td{
 
 .flexbox h2{
     color: white;
+    justify-self: center;
+    max-width: 1500px;
 }
 .flexbox img{
     justify-content: right;
@@ -389,7 +390,6 @@ th, td{
 
 .banner img{
     max-width: 2000px;
-    max-height: auto;
 }
 
 .home_form{
