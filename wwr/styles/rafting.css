@@ -37,7 +37,7 @@ nav{
     margin: 1rem;
     display: flex;
     justify-content: space-evenly;
-    color: var(--primary-color);
+    color: black;
     background-color: #f5a65b;
     padding: 20px;
     font-size: large;
@@ -115,7 +115,7 @@ p{
 
 nav a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: black;
     display: flex;
     justify-content: space-evenly;
 }
@@ -252,7 +252,7 @@ footer{
 
 nav a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: black;
     max-width: 1000px;
     display: flex;
     justify-content: space-evenly;
