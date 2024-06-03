@@ -168,6 +168,10 @@ nav a {
     color: white;
     font-size: larger;
 }
+
+.grid section h1{
+    color: black;
+}
 .grid section{
     max-width: 800px;
 }
