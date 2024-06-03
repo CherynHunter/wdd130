@@ -137,7 +137,7 @@ nav a {
     width: 500px;
     top:10px;
     text-align: left;
-    color: var(--primary-color);
+    color: black;
     background-color: #fefefe;
     padding: 2rem
 }
