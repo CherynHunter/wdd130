@@ -61,7 +61,7 @@ h1{
     top: 450px;
     width: 1400px;
     text-align: center;
-    color: var(--primary-color);
+    color: black;
     background-color: #fefefe;
     opacity: 0.75;
     padding: 2rem
@@ -190,7 +190,7 @@ form{
 
 fieldset{
     display: grid;
-    width: 600px;
+    width: 625px;
     grid-gap: 0.5rem;
     margin: 1rem;
     border: 2px solid #f5a65b;
@@ -336,6 +336,25 @@ th, td{
     padding: 10px;
 }
 
+.flexbox{
+    display: grid;
+    max-width:2000px;
+    max-height: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+
+}
+
+.flexbox h2{
+    color: white;
+}
+.flexbox img{
+    justify-content: right;
+}
 
 /*class selectors*/
 
@@ -366,4 +385,28 @@ th, td{
     display: grid;
     grid-template-columns: 700px 700px;
     
+}
+
+.banner img{
+    max-width: 2000px;
+    max-height: auto;
+}
+
+.home_form{
+    margin-left: auto;
+    width: 1500px;
+}
+
+.home_form p{
+    width: 500px;
+}
+
+.grid_home{
+    display: grid;
+    grid-template-columns: 550px 550px 550px;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    margin: 5px;
+    padding: 5px;
+
 }
