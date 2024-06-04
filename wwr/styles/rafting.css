@@ -177,7 +177,7 @@ nav a {
 }
 
 form{
-    width: 700px;
+    width: 650px;
     height: 750px;
     margin: 0 auto;
     padding: 1rem;
@@ -190,7 +190,7 @@ form{
 
 fieldset{
     display: grid;
-    width: 625px;
+    width: 600px;
     grid-gap: 0.5rem;
     margin: 1rem;
     border: 2px solid #f5a65b;
