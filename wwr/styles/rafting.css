@@ -268,7 +268,7 @@ nav a {
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 300px 150 100px 300px 300;
+    grid-template-rows: 400px 40px  100px 450px 80px 100px;
     border: 5px solid #f5a65b;
 }
 
